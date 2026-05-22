@@ -51,10 +51,6 @@ body {
   border-top: none;
 }
 
-.botao:first-child {
-  border-radius: 40px 40px 0 0;
-}
-
 .botoes {
   display: block;
 }
@@ -63,8 +59,10 @@ body {
   .botoes {
     display: flex;
   }
-
-  .botao:last-child {
+  .botao:first-child {
+    border-radius: 40px 0 0 0;
+  }
+    .botao:last-child {
     border-radius: 0 40px 0 0;
   }
 }
